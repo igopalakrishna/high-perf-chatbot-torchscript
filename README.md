@@ -175,4 +175,4 @@ README.md                   # You're here!
 ## Author
 
 **Gopala Krishna Abba**  
-[LinkedIn](https://linkedin.com/) • [W&B Project](https://wandb.ai/ga2664-new-york-university/chatbot)
+[LinkedIn](https://linkedin.com/igopalakrishna) • [W&B Project](https://wandb.ai/ga2664-new-york-university/chatbot)
