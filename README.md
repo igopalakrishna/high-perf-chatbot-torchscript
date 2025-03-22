@@ -1,6 +1,3 @@
-# high-perf-chatbot-torchscript
-High-performance conversational AI chatbot built with PyTorch, TorchScript, and Luong attention. Optimized for fast inference, scripted for deployment, and trained on movie dialogs with hyperparameter tuning and profiling.
-
 # TorchScript-Optimized Conversational AI Chatbot
 
 > A high-performance, GPU-accelerated conversational AI chatbot trained on the Cornell Movie Dialog Corpus using a Sequence-to-Sequence architecture with Luong attention. Optimized via Weights & Biases hyperparameter sweeps and exported with TorchScript for deployment in non-Python environments.
