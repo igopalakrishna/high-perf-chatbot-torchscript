@@ -91,7 +91,7 @@ Used `torch.profiler` and Chrome Trace Viewer (`chrome://tracing`) to analyze:
 - Memory usage
 - Execution bottlenecks
 
-### ⏱️ Latency Comparison
+### Latency Comparison
 
 | Model Type       | Inference Time | Speedup |
 |------------------|----------------|---------|
@@ -100,7 +100,7 @@ Used `torch.profiler` and Chrome Trace Viewer (`chrome://tracing`) to analyze:
 
 ---
 
-## 💬 Sample Responses
+## Sample Responses
 
 | Input             | Response                    |
 |------------------|-----------------------------|
@@ -121,7 +121,7 @@ Note: Some responses reflect dataset bias and should not be used in production w
 python chatbot_train.py
 ```
 
-### 🔬 Evaluation
+### Evaluation
 
 ```bash
 python evaluate.py
