@@ -96,7 +96,7 @@ Used `torch.profiler` and Chrome Trace Viewer (`chrome://tracing`) to analyze:
 | Model Type       | Inference Time | Speedup |
 |------------------|----------------|---------|
 | Native PyTorch   | 0.0651 sec     | 1x      |
-| TorchScript      | 0.0519 sec     | 🚀 **1.25x** |
+| TorchScript      | 0.0519 sec     | **1.25x** |
 
 ---
 
@@ -154,14 +154,14 @@ python chatbot_infer.py
 ## Directory Structure
 
 ```
-📂 chatbot.ipynb               # Main training + inference notebook
-📂 nonPython_chatbot.cpp       # C++ inference attempt (TorchScript)
-📂 chatbot_model.pt            # PyTorch model checkpoint
-📂 scripted_searcher.pt        # Final TorchScript model (for deployment)
-📂 traced_encoder.pt
-📂 traced_decoder.pt
-📂 libtorch-v2.1.0.zip         # LibTorch for Apple Silicon
-📂 README.md                   # You're here!
+chatbot.ipynb               # Main training + inference notebook
+nonPython_chatbot.cpp       # C++ inference attempt (TorchScript)
+chatbot_model.pt            # PyTorch model checkpoint
+scripted_searcher.pt        # Final TorchScript model (for deployment)
+traced_encoder.pt
+traced_decoder.pt
+libtorch-v2.1.0.zip         # LibTorch for Apple Silicon
+README.md                   # You're here!
 ```
 
 ---
